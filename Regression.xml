@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="Regression1">
+        <classes>
+            <class name="Testing.TodayDealTest"/>
+            <class name="Testing.SelectDeal_Test"/>
+            <class name="Testing.NextPageTest"/>
+            <class name="Testing.ItemSelection_Test"/>
+            <class name="Testing.AddToCart_Test"/>
+        </classes>
+    </test>
+</suite>
