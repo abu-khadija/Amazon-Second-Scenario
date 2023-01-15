@@ -23,8 +23,8 @@ public class TestBase {
     }
 
 
-//    @AfterSuite
-//    public void CloseDriver(){
-//        driver.quit();
-//    }
+    @AfterSuite
+    public void CloseDriver(){
+        driver.quit();
+    }
 }

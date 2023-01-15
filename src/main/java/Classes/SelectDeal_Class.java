@@ -20,10 +20,6 @@ public class SelectDeal_Class extends BasePage{
 
 
 
-
-
-
-
     public void SelectFilters() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
